@@ -114,7 +114,12 @@ run the model, you can then use either the web UI or a command line client.
 
 Start the server with:
 ```bash
-python -m moshi.server [--gradio-tunnel] [--hf-repo kyutai/moshika-pytorch-bf16]
+
+python -m moshi.server --gradio-tunnel --hf-repo kyutai/moshika-pytorch-bf16
+
+
+python -m moshi.server --gradio-tunnel --hf-repo DavidBrowne17/Muchi
+
 ```
 
 And then access the web UI on [localhost:8998](http://localhost:8998).
